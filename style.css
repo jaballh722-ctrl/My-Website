@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+	font-family: "poppins", sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header {
+	background-color: rgba(10, 206, 240, 0.984);
+	width: 100%;
+	position: fixed;
+	z-index: 999;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 200px;
+}
+.logo {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgb(51, 0, 255);
+	transition: 0.5s;
+}
+.logo:hover {
+	color: rgb(137, 115, 225);
+}
+nav a {
+	text-decoration: none;
+	font-size: 30px;
+	margin: 15px;
+	transition: 0.5s;
+	font-weight: 500;
+	padding: 10px;
+}
+nav a:hover {
+	color: rgb(137, 115, 225);
+}
+section {
+	padding: 100px 200px;
+}
+.main {
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	background: url(computer.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.main h2 {
+	color: rgb(163, 230, 151);
+	margin-top: 100px;
+}
+.main h2 span {
+	font-size: 55px;
+	color: lightblue;
+}
+.main h3 {
+	margin: 10px;
+	font-size: 29px;
+	letter-spacing: 1px;
+}
+.projectbtn {
+	text-decoration: none;
+	background-color: burlywood;
+	color: aquamarine;
+	padding: 15px;
+	font-size: large;
+	margin: 20px 0;
+	display: inline-block;
+	border-radius: 15px;
+	transition: 0.3s ease;
+}
+
+.projectbtn:hover {
+	transform: scale(1.1); /* يكبر بنسبة 10% */
+}
+
+.sociallinks a i {
+	font-size: 50px;
+	transition: transform 0.3s ease; /* لازم على الـ i */
+	display: inline-block; /* عشان الـ transform يشتغل مظبوط */
+}
+
+.sociallinks a i:hover {
+	transform: scale(1.2);
+}
+.services {
+	background-color: cadetblue;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+.title {
+	text-align: center;
+	color: rgb(0, 213, 255);
+	font-size: 40px;
+}
+.content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 80%;
+}
+.card {
+	background-color: rgb(83, 110, 228);
+	margin: 20px;
+	padding: 20px;
+	border-radius: 13px;
+	width: 400px;
+	height: 320px;
+	transition: 0.5s;
+	overflow: hidden;
+}
+.card:hover {
+	transform: scale(1.05);
+}
+.icon {
+	font-size: 80px;
+	text-align: center;
+}
+.info {
+	text-align: center;
+}
+.info h2 {
+	font-size: 25px;
+	color: rgb(209, 184, 184);
+}
+.info p {
+	font-weight: 600;
+}
+.icon img {
+	text-align: center;
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 20px;
+}
+.projects {
+	background-color: rgb(0, 0, 0);
+}
+.projectscontent {
+	margin-top: 30px;
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.project {
+	margin: 20px;
+	border-radius: 15px;
+	overflow: hidden;
+	transition: 0.5s;
+	background-color: blanchedalmond;
+	padding: 20px;
+	width: 300px;
+	font-size: 20px;
+}
+.project:hover {
+	transform: scale(1.05);
+}
+.project img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+.btn {
+	text-decoration: none;
+	background-color: burlywood;
+	color: aquamarine;
+	padding: 10px;
+	font-size: large;
+	margin-top: 10px;
+	display: inline-block;
+	border-radius: 15px;
+	transition: 0.8s ease;
+}
+.btn:hover {
+	color: red;
+}
+
+.contact {
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+	display: flex;
+	justify-content: left;
+}
+.contactform {
+	background-color: rgb(83, 110, 228);
+	padding: 20px;
+	border-radius: 15px;
+	width: 500px;
+	margin: auto;
+}
+.contactform,
+.emaile {
+	text-align: center;
+}
+.contactform input,
+.contactform textarea {
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0;
+	border-radius: 10px;
+	border: none;
+	font-size: 16px;
+}
+.btn2 {
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+	font-size: 50px;
+	margin-top: 10px;
+	display: inline-block;
+	border-radius: 15px;
+	transition: 0.8s ease;
+	border: none;
+	cursor: pointer;
+}
+.btn2:hover {
+	scale: 1.1;
+}
+.contactme {
+	background-color: cadetblue;
+	width: 600px;
+	border-radius: 15px;
+	text-align: left;
+	padding: 60px;
+	transform: translateY(160px);
+	margin-right: 40px;
+	transition: 0.5s;
+	height: 650px;
+}
+.contactinsta {
+	text-align: center;
+	margin-top: 20px;
+	background-color: cadetblue;
+	padding: 50px;
+	border-radius: 15px;
+	transform: translateY(140px);
+	transition: 0.5s;
+}
+.contactinsta a:hover {
+	scale: 1.1;
+}
+.iconinsta {
+	transition: 0.5s;
+}
+.iconinsta:hover {
+	scale: 1.1;
+}
+
