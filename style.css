@@ -378,7 +378,7 @@ section {
 }
 
 .contactme {
-	background: white;
+background: rgb(182, 242, 227);
 	border-radius: 15px;
 	padding: 40px;
 	width: 500px;
@@ -469,7 +469,7 @@ section {
 }
 
 .contactinsta {
-	background: white;
+background: rgb(182, 242, 227);
 	border-radius: 15px;
 	padding: 50px 40px;
 	width: 500px;
