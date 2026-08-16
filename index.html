@@ -220,18 +220,26 @@
 					</h2>
 					<!-- الفورم -->
 					<form
-						action="https://formspree.io/f/mkgvpkjv"
+						action="https://api.web3forms.com/submit"
 						method="POST"
 						class="contactform">
+						<input
+							type="hidden"
+							name="access_key"
+							value="fd1edffb-70ef-4a51-92b5-d023f0e1300d" />
+						<label>
+							Your name:
+							<input type="text" name="name" required />
+						</label>
 						<label class="emaile">
 							Your email:
-							<input type="email" name="email" />
+							<input type="email" name="email" required />
 						</label>
 						<label>
 							Your message:
-							<textarea name="message"></textarea>
+							<textarea name="message" required></textarea>
 						</label>
-						<button type="submit" class="btn2">Send</button>
+						<button type="submit" class="btn2">Submit Form</button>
 					</form>
 					<!-- الفورم -->
 				</div>
